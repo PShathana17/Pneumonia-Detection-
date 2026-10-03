@@ -1,6 +1,6 @@
-# 🫁 Pneumonia Detection Using CNN and Deep Learning
+# Pneumonia Detection Using CNN and Deep Learning
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents a **Deep Learning-based Pneumonia Detection System** that classifies chest X-ray images as **Normal** or **Pneumonia**. The model is developed using **Convolutional Neural Networks (CNN)** and also explores **Transfer Learning with MobileNetV2** to improve classification performance.
 
@@ -8,7 +8,7 @@ The objective is to assist healthcare professionals by providing a fast and auto
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Detect pneumonia from chest X-ray images.
 * Build a CNN model for binary image classification.
@@ -18,7 +18,7 @@ The objective is to assist healthcare professionals by providing a fast and auto
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 * Python
 * TensorFlow / Keras
@@ -31,7 +31,7 @@ The objective is to assist healthcare professionals by providing a fast and auto
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The project uses a **Chest X-ray Image Dataset** containing two classes:
 
@@ -62,7 +62,7 @@ Each image is resized to **224 × 224 pixels** before training.
 
 ---
 
-## 🏗️ CNN Architecture
+##  CNN Architecture
 
 The custom CNN model consists of:
 
@@ -79,7 +79,7 @@ The custom CNN model consists of:
 
 ---
 
-## 🚀 Transfer Learning
+##  Transfer Learning
 
 To improve performance, the project also uses **MobileNetV2** with ImageNet pretrained weights.
 
@@ -93,7 +93,7 @@ Features include:
 
 ---
 
-## 📊 Model Evaluation
+##  Model Evaluation
 
 The model is evaluated using:
 
@@ -105,17 +105,17 @@ The model is evaluated using:
 
 ---
 
-## 🔍 Prediction
+##  Prediction
 
 The trained model can classify a new chest X-ray image as:
 
-* ✅ NORMAL
-* 🩺 PNEUMONIA
+*  NORMAL
+*  PNEUMONIA
 
 It also displays the prediction confidence score.
 
 ---
-## ⭐ Acknowledgements
+##  Acknowledgements
 
 * TensorFlow & Keras
 * Google Colab
